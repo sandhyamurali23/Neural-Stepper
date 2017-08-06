@@ -1,0 +1,2 @@
+# Neural-Stepper
+Diagnosed syndromes of neurological disorders through an android application. This project enables to detect muscle stiffness of finger tips using the finger print sensor of smart phones and muscle stiffness in the legs is diagnosed using the gyroscope sensor. Thinking abilities of the patient is monitored by providing basic math problems and audio of the patient is recorded using the audio sensor.
