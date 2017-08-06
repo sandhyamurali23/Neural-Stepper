@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb300">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/twoFingerPimary"
+        android:elevation="4dp"
+       />
+
+
+
+    <EditText
+        android:id="@+id/Taps"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:textSize="45dp"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:editable="false"
+        android:background="@null"
+
+        android:layout_marginTop="210dp" />
+
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="00:45"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView15"
+        android:layout_alignEnd="@+id/bButton1" />
+
+
+
+    <Button
+        android:id="@+id/bButton1"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:focusable="false"
+        android:layout_marginRight="0dp"
+        android:background="#ffa000"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bButton2"
+        android:layout_alignBottom="@+id/bButton2"
+
+        />
+
+    <Button
+        android:id="@+id/bButton2"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:focusable="false"
+        android:layout_marginLeft="0dp"
+        android:background="#ffca28"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/bButton1"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Total Taps"
+        android:id="@+id/textView14"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tap the buttons as quickly as you can with two fingers"
+        android:id="@+id/textView15"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="16dp"
+        android:layout_alignEnd="@+id/Taps"
+        android:layout_alignStart="@+id/Taps"
+        android:layout_marginTop="60dp" />
+
+
+</RelativeLayout>

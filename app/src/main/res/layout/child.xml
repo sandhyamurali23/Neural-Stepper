@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.nslabs.ns.GalleryFragment">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+        android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+        android:title="ns1"
+        android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:hint="FirstName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/imageView2"
+         />
+
+
+
+    <EditText
+
+        android:id="@+id/etLastName"
+        android:layout_width="170dp"
+        android:hint="LastName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_toRightOf="@+id/etFirstName"
+         />
+
+    <EditText
+
+        android:id="@+id/etAge"
+        android:layout_width="100dp"
+        android:hint="Age"
+        android:layout_marginTop="20dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etFirstName"
+
+        />
+
+    <EditText
+
+        android:id="@+id/etSex"
+        android:layout_width="100dp"
+        android:hint="Sex"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etFirstName"
+        android:layout_toRightOf="@+id/etAge"
+
+        />
+
+    <EditText
+
+        android:id="@+id/etBloodGroup"
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:hint="Blood Group"
+        android:layout_marginLeft="33dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etFirstName"
+        android:layout_toRightOf="@+id/etSex"
+
+        />
+
+
+    <EditText
+
+        android:id="@+id/etHeight"
+        android:layout_width="170dp"
+        android:layout_marginTop="20dp"
+        android:hint="Height"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etAge"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/etWeight"
+        android:layout_width="170dp"
+        android:hint="Weight"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="33dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etAge"
+        android:layout_toRightOf="@+id/etHeight"
+        />
+
+    <EditText
+
+        android:id="@+id/etUserName1"
+        android:layout_width="170dp"
+        android:hint="UserName"
+        android:layout_marginTop="20dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etWeight"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/profile"
+        android:layout_width="170dp"
+        android:hint="Update Photo"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/etUserName1"
+        android:layout_alignStart="@+id/etWeight" />
+
+
+
+</RelativeLayout>

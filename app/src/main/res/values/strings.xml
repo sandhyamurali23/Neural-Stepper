@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="title_activity_two_finger">TwoFinger</string>
+    <string name="title_activity_drag_drop">DragDrop</string>
+    <string name="action_favourite">Favourites</string>
+    <string name="dragtext">Drag Now!</string>
+</resources>

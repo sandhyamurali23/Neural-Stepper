@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.nslabs.ns.GalleryFragment">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+        android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+        android:title="ns1"
+        android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:checked="false"
+        android:text="Backup and Sync"
+        android:textOff="OFF"
+        android:textOn="ON"
+  />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_compat"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:checked="false"
+        android:text="Notifications"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_compat1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:checked="false"
+        android:text="Reset High Scores"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_compat2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:checked="false"
+        android:text="Change App Themes"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_compat3"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:checked="false"
+        android:text="Interface sounds"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+
+    <Button
+        android:id="@+id/switch_compat5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_compat4"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:checked="false"
+        android:text="Set Reminders"
+        android:textOff="OFF"
+        android:textOn="ON"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

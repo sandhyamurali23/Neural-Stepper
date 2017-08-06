@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#6F4DAE"
+        android:elevation="4dp"
+        >
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#6F4DAE">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A new Quiz is available!"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="80dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_below="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="18dp"
+            android:layout_height="20dp"
+            android:text="It should take about a minute"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#ffffff"/>
+
+
+
+        <Button
+            android:id="@+id/bGetStarted"
+            android:text="Get Started"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_marginTop="170dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:textColor="#6F4DAE"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Progress"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvPercentage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0% complete"
+            android:gravity="center"
+            android:textSize="30dp"
+
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

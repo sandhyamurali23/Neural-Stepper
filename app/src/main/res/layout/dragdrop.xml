@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.androidsrc.draganddrop.MainActivity" >
+
+
+
+    <RelativeLayout
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#1976D2">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#1976D2"
+            android:elevation="4dp"
+            />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drag the ball behind the line using your right hand"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="60dp"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Score"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/tvscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Time"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="270dp"
+            />
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="290dp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/left_view"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="#1976D2"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_below="@+id/top_view">
+
+        <ImageView
+            android:id="@+id/box_view1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/box1" />
+
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_view"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:background="#1976D2"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/left_view"
+        android:layout_below="@+id/top_view">
+    </RelativeLayout>
+
+</RelativeLayout>

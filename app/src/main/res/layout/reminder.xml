@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1976D2"
+        android:elevation="4dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET REMINDER"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Days"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/cb"
+         />
+
+
+    <CheckBox android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:layout_marginLeft="10dp"
+        android:layout_above="@+id/button1"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:layout_above="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:layout_above="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="110dp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:layout_above="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="160dp"
+        android:onClick="onCheckboxClicked"
+        android:checked="false" />
+
+    <CheckBox android:id="@+id/cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:layout_above="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="210dp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/cb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:layout_above="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="260dp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/cb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:layout_above="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="310dp"
+        android:onClick="onCheckboxClicked"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:text="Change Time"
+        android:layout_above="@+id/timePicker1"
+        android:layout_toEndOf="@+id/cb1" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

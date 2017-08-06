@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nslabs.ns">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".ParseLogin"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="OGGJcPSGVQP7qKy5SWCy8sgOzxYTNF47vffbtkqq" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="G8Q5TC4wCHIhQLhrr42cStco2kWOrql5nL0Tyhxu" />
+
+        <activity
+            android:name=".OnLoadActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="NS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".audio"
+            android:label="NS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".forgot"
+            android:label="NS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:label="NS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dispatch"
+            android:label="NS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tests"
+            android:label="NS"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TwoFinger"
+            android:label="@string/title_activity_two_finger"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".tests1"
+            android:label="NS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test2"
+            android:label="NS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".dragdrop1"
+            android:label="NS"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reactiontime"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".test3"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".reminder"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".password"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".child"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".question"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".question1"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".question2"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".question3"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".rewards1"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".rewards2"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".cognitive"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".test4"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>

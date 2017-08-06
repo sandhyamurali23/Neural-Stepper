@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.nslabs.ns.MainFragment">
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+        android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+        android:title="ns1"
+        android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="MAIN1"
+        android:padding="8dp"
+        android:textColor="#fff" android:background="#F44C36"
+        android:textSize="28sp"
+        android:id="@+id/main_button"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="MAIN2"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="#2286F5"
+        android:textSize="28sp"
+        android:id="@+id/main_button1"
+        android:layout_below="@+id/main_button"
+        android:layout_alignParentStart="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="MAIN3"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="#44B98D"
+        android:textSize="28sp"
+        android:id="@+id/main_button2"
+        android:layout_below="@+id/main_button1"
+        android:layout_alignParentStart="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="MAIN4"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="#F5C622"
+        android:textSize="28sp"
+        android:id="@+id/main_button3"
+        android:layout_below="@+id/main_button2"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="MAIN5"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="#6F4DAE"
+        android:textSize="28sp"
+        android:id="@+id/main_button4"
+        android:layout_below="@+id/main_button3"
+        android:layout_alignParentStart="true"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="MAIN6"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:background="#D3894A"
+        android:textSize="28sp"
+        android:id="@+id/main_button5"
+        android:layout_below="@+id/main_button4"
+        android:layout_alignParentStart="true"
+        />
+
+
+
+</RelativeLayout>

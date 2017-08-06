@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:background="#2196F3"
+        android:id="@+id/frameLayout">
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="15dp"
+        android:hint="Enter your Email id"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignStart="@+id/tvMoreOptions"
+        android:layout_alignEnd="@+id/bLogin" />
+    <Button
+        android:id="@+id/bLogin"
+        android:text="NEXT"
+        android:textSize="17dp"
+        android:textColor="#ffffff"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/blue_button"
+        android:focusable="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/tvMoreOptions"
+        android:layout_width="120dp"
+        android:text="More options"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:textSize="15dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@+id/bLogin"
+        android:layout_alignBottom="@+id/bLogin"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="89dp"
+        android:text="   Sign in"
+        android:textSize="19dp"
+        android:layout_marginTop="115dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="left|center_vertical" />
+
+
+</RelativeLayout>

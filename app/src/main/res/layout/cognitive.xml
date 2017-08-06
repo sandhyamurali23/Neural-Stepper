@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#D3894A"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#D3894A"
+        android:elevation="4dp"
+        >
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/timetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:text="Time"
+        android:textSize="15dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/timetitle"
+        android:text="0"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:id="@+id/scoretitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/timetitle"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Score"
+        android:textSize="15dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="220dp"
+        android:layout_marginRight="30dp"/>
+
+<TextView
+    android:layout_width="230dp"
+    android:layout_height="65dp"
+    android:layout_below="@+id/scoretitle"
+    android:text="0"
+    android:textSize="15dp"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:layout_marginTop="10dp"
+    android:layout_toRightOf="@+id/time"
+    android:id="@+id/score"
+    android:layout_marginLeft="250dp"
+    android:layout_marginRight="30dp"
+    />
+
+<TextView
+    android:id="@+id/q1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="250dp"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:layout_centerHorizontal="true"
+    android:textSize="30dp"
+    android:text="37-22"
+    />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/q1"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgview"
+
+        />
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="30dp"
+        android:text="37-22"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="which quantity is greater?"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginBottom="50dp"/>
+
+
+
+
+</RelativeLayout>

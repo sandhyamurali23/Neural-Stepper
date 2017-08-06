@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="twoFingerDark">#ffa000</color>
+    <color name="twoFingerPimary">#ffca28</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="colorAccent">#1976D2</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDivider">#B6B6B6</color>
+
+    <color name="colorPrimary1">#125688</color>
+    <color name="colorPrimaryDark1">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent1">#c8e8ff</color>
+
+
+</resources>

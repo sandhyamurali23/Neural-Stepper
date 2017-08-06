@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Application">
+         <menu>
+
+             <item android:id="@+id/nav_camara" android:icon="@drawable/dashboard1"
+                 android:title="Dashboard" />
+             <item android:id="@+id/nav_gallery" android:icon="@drawable/hospital"
+                 android:title="Test" />
+             <item android:id="@+id/nav_slideshow" android:icon="@drawable/ticket"
+                 android:title="Rewards" />
+             <item android:id="@+id/nav_manage" android:icon="@drawable/clipboard"
+                 android:title="Activity" />
+
+         </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Settings" />
+            <item android:id="@+id/nav_send" android:icon="@drawable/account"
+                android:title="Profile" />
+            <item android:id="@+id/nav_send1" android:icon="@drawable/message"
+                android:title="Help and Feedback"/>
+        </menu>
+    </item>
+
+</menu>
